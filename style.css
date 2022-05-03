@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(195, 186, 186);
+    width: 240px;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 30px;
+    margin: 10px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 0px;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: white;
+    width: 90vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    background-color: white;
+    height: 57vh;
+    width: 80vw;
+    margin: 80px 23px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.devpic img {
+    height: 57vh;
+}
+
+.hello {
+    font-size: 25px;
+}
+
+.name {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.moreabout {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.buttons {
+    padding: 29px 0px;
+}
+
+.buttons button {
+    padding: 8px;
+    margin: 0px 15px;
+    border-radius: 27px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+.contactform h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.contactform form {
+    padding-left: 70px;
+    margin: 24px 0px;
+}
+
+.contactform form div {
+    padding: 8px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 230px;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+#emailHelp {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(238, 113, 113);
+}
+
+#form-check {
+    display: flex;
+    flex-direction: row;
+}
+
+#exampleCheck1 {
+    border: 50px;
+    margin: 3px -101px;
+}
+
+.contactform {
+    margin: 20px 50px;
+}
+
+.contactform button {
+    width: 70px;
+    padding: 3px 8px;
+    margin: 0px 9px;
+    border-radius: 12px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.contactform button:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+.blog {
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px 10px;
+}
+
+.blog h1 {
+    margin: 10px 0px;
+}
+
+.blog div {
+    margin: 15px;
+}
+
+.blog blogitem h2 {
+    margin: 9px;
+}
+
+.blogitem button {
+    width: 87px;
+    padding: 2px 7px;
+    margin: 10px 5px;
+    border-radius: 12px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.blogitem button:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+.aboutme {
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px 30px;
+}
+
+
+.aboutme h1 {
+    margin: 15px 0px;
+}
+
+.aboutme p {
+    margin: 10px 0px;
+}
+
+.myskills h2 {
+    margin: 15px 0px 15px 0px;
+}
+
+.skills div {
+    margin: 9px;
+    font-weight: 599px;
+}
+
+.skill {
+    width: 160px;
+    height: 4px;
+    border: 1.5px solid;
+    background-color: red;
+    margin-top: 8px;
+    margin-left: 19px;
+}
+
+.skillitem {
+    display: flex;
+    flex-direction: row;
+}
+
+.t5 {
+    width: 60px;
+    background-color: rgb(186, 205, 212);
+}
+
+.t4 {
+    width: 90px;
+    background-color: rgb(170, 199, 163);
+}
+
+.cv {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 30px 30px;
+}
+
+.cv h1 {
+    margin: 18px 0px;
+}
+
+.theory {
+    margin: 0px 10px;
+    margin-bottom: 17px;
+}
+
+.cv a button {
+    width: 85px;
+    padding: 3px 8px;
+    margin: 0px 9px;
+    border-radius: 12px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.cv a button:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+.head {
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    margin-top: 13px;
+    margin-left: 280px;
+    margin-bottom: 13px;
+}
+
+.cvpic img {
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 280px;
+    width: 130vh;
+    height: 190vh;
+
+}
