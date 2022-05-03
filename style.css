@@ -86,7 +86,8 @@
 }
 
 .buttons button {
-    padding: 8px;
+    width:90px;
+    padding: 6px;
     margin: 0px 15px;
     border-radius: 27px;
     background-color: cornflowerblue;
